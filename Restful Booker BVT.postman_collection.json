@@ -25,7 +25,11 @@
 									"    // See Chaijs docs for complete list of available assertions",
 									"    // https://www.chaijs.com/api/bdd",
 									"    pm.expect(jsonData).to.not.have.lengthOf(0);",
+<<<<<<< HEAD
 									"});"
+=======
+									"});",
+>>>>>>> 3ebd57e1dbd6f87806bd274d161a2e88d3ff13d1
 								],
 								"type": "text/javascript",
 								"packages": {}
@@ -1141,7 +1145,12 @@
 						"exec": [
 							"pm.test(\"Ping is successful\", function () {",
 							"    pm.response.to.be.success;",
+<<<<<<< HEAD
 							"});"
+=======
+							"});",
+							"",
+>>>>>>> 3ebd57e1dbd6f87806bd274d161a2e88d3ff13d1
 						],
 						"type": "text/javascript",
 						"packages": {}
